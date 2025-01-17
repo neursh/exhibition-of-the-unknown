@@ -90,10 +90,14 @@ body {
   padding-left: 3rem;
   padding-right: 3rem;
 }
+.content .subcontent table .text {
+  padding-right: 2rem;
+}
 .content .subcontent img {
   border-radius: 8px;
 }
 .content .subcontent .iframe-center {
+  padding-top: 24px;
   display: flex;
   justify-content: center;
 }
