@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: black;
   font-family: "GeneralSans";
+  scroll-behavior: smooth;
 }
 
 .art {
@@ -45,20 +46,31 @@ body {
   font-size: 8rem;
   font-weight: 600;
   text-align: center;
-  height: 35%;
 }
 .pane .work .name-fix {
   display: flex;
-  height: 65%;
+  flex-direction: column;
+  height: 55%;
   justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 .pane .work .name-fix .name {
   margin: 0;
-  height: 65%;
+  height: 55%;
   writing-mode: sideways-lr;
   font-size: 5rem;
   font-weight: 400;
   text-wrap: nowrap;
+}
+
+.content {
+  border-radius: 2rem;
+  position: relative;
+  top: 100dvh;
+  height: 100dvh;
+  width: 100%;
+  background-color: white;
 }
 
 @font-face {
