@@ -4,7 +4,7 @@ const works = [
   document.getElementById("primordial-chaos"),
   document.getElementById("two-african-hairstyles"),
   document.getElementById("the-lovers-boat"),
-  document.getElementById("capa-robert"),
+  document.getElementById("deathbed-photo"),
   document.getElementById("the-adventures-of-prince-achmed"),
 ];
 
@@ -12,7 +12,7 @@ const binds = [
   document.getElementById("binds-primordial-chaos"),
   document.getElementById("binds-two-african-hairstyles"),
   document.getElementById("binds-the-lovers-boat"),
-  document.getElementById("binds-capa-robert"),
+  document.getElementById("binds-deathbed-photo"),
   document.getElementById("binds-the-adventures-of-prince-achmed"),
 ];
 
