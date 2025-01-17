@@ -16,6 +16,16 @@ const binds = [
   document.getElementById("binds-the-adventures-of-prince-achmed"),
 ];
 
+const contents = [
+  document.getElementById("content-primordial-chaos"),
+  document.getElementById("content-two-african-hairstyles"),
+  document.getElementById("content-the-lovers-boat"),
+  document.getElementById("content-deathbed-photo"),
+  document.getElementById("content-the-adventures-of-prince-achmed"),
+];
+
+let lastMouseOnContent = -1;
+
 works.forEach((element, index) => {
   element.addEventListener("mouseover", () => {
     animate(element, { opacity: 1 }, { duration: 0.5 });
@@ -24,6 +34,14 @@ works.forEach((element, index) => {
         bind.style.opacity = 1;
       } else {
         bind.style.opacity = 0;
+      }
+    });
+
+    contents.forEach((content, contentIndex) => {
+      if (index === contentIndex) {
+        content.style.display = "block";
+      } else {
+        content.style.display = "none";
       }
     });
   });
