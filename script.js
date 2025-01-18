@@ -28,7 +28,7 @@ let lastMouseOnContent = -1;
 
 works.forEach((element, index) => {
   element.addEventListener("mouseover", () => {
-    animate(element, { opacity: 1 }, { duration: 0.5 });
+    element.style.opacity = 1;
     binds.forEach((bind, bindsIndex) => {
       if (index === bindsIndex) {
         bind.style.opacity = 1;
@@ -46,6 +46,6 @@ works.forEach((element, index) => {
     });
   });
   element.addEventListener("mouseout", () => {
-    animate(element, { opacity: 0 }, { duration: 0.5 });
+    element.style.opacity = 0;
   });
 });
