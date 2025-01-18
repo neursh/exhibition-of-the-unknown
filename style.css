@@ -59,7 +59,7 @@ body {
 .pane .work .name-fix .name {
   margin: 0;
   height: 55%;
-  writing-mode: sideways-lr;
+  writing-mode: vertical-lr;
   font-size: 5rem;
   font-weight: 400;
   text-wrap: nowrap;
