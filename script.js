@@ -1,5 +1,3 @@
-const { animate, hover } = Motion;
-
 const works = [
   document.getElementById("primordial-chaos"),
   document.getElementById("two-african-hairstyles"),
