@@ -38,6 +38,7 @@ body {
   width: 100%;
   background-color: white;
   opacity: 0;
+  transition: opacity 0.5s;
 }
 .pane .work table {
   width: 100%;
